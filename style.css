@@ -1,0 +1,87 @@
+body {
+    background: rgb(139, 14, 223);
+    background: linear-gradient(156deg,
+      rgba(139, 14, 223, 1) 13%,
+      rgba(164, 169, 236, 1) 61%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+  }
+  
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 1;
+    color: white;
+  font-weight: bold;  
+  }
+  p{
+  text-align: center;
+  font-size: 1.2em
+  }
+  h1{
+  font-family: courier, "courier new", monospace;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 1.4pt;
+  word-spacing: -0.8pt;
+  }
+  
+  form{
+    background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 5em;
+   padding: 1em;
+    border-radius: 30px
+      /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+  }
+  input{
+    height: 2em;
+    background-color: #BA0021;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  padding-top: 10px;
+    width: 90%
+  }
+  
+  button{
+    margin-top: 10px
+  }
+  div{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  ::placeholder{
+    color: white
+  }
+  
+  @media (min-width: 720px) {
+    h1{
+      font-size: 4em;
+    }
+    
+    form{
+        width: 40%;
+        height: 7em;
+   padding: 2em;
+    }
+    input{
+    height: 3em;
+      
+    }
+  }
